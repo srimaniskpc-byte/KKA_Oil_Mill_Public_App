@@ -18,7 +18,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
    KKA OIL MILL - DJANGO API
 ================================ */
 
-const API_URL = "http://127.0.0.1:8000/api/website-data/";
+const API_URL = "https://kka-oil-mill-backend.onrender.com/api/website-data/";
 
 
 async function loadWebsiteData() {
