@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-rsacsxpecvb_4%uco5_%2525l%kbsz_6pi_b)=+atqrstrertf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "kka-oil-mill-backend.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
